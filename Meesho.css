@@ -1,0 +1,233 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family:CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+body {
+  margin: 0px;
+  font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-align: left;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 70px;
+    background-color:white;
+
+}
+#nav article span div{
+   color: rgb(179, 9, 100);
+    font-size: 35px;
+    padding-right: 30px;
+}
+
+#nav article{
+    /* border: 2px solid yellow; */
+    width: 80%;
+    height: inherit;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav article ol{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    /* border: 2px solid; */
+    width: 50%;
+}
+#nav article ol li{
+    padding-left:35px;
+    color:black;
+    font-size:medium;
+}
+#nav article ol li:hover{
+    cursor: pointer;
+    color:mediumvioletred;
+}
+#div1 ol{
+    width: 90%;
+    height: inherit;
+    margin: 0% auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+#div1 ol li:hover{
+    cursor: pointer;
+    color:mediumvioletred;
+    
+
+}
+#a{
+    height: 40px;
+    width: 40%;
+    font-size: 17px;
+    text-align: center;
+}
+#price{
+   
+    font-size:40px ;
+    font-weight: bold;
+    letter-spacing:1px;
+    text-align: left;
+    float: left;
+    
+}
+#div2{
+    text-align: center;
+}
+#img{
+    text-align: end;
+}
+.searchbar {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: white;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 600px;
+  }
+  
+  .searchbar:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+  }
+  
+  .searchbar-wrapper {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+  }
+  
+  .searchbar-left {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-icon-wrapper {
+    margin: auto;
+  }
+  
+  .search-icon {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+  }
+  
+  .searchbar-icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .searchbar-center {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .searchbar-input-spacer {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+  }
+  
+  .searchbar-input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .searchbar-right {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row
+  }
+  
+  .searchbar-clear-icon {
+    margin-right: 12px
+  }
+  
+  .voice-search {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 2.8em;
+  }
+  #pay{
+    /* width: 90%;
+    height: inherit;
+    margin: 0% auto; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  #input{
+    color:darkorange;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border: 10%;
+  
+  }
+  #p{
+    padding-top: 90px;
+    word-spacing: 3px;
+    font-size: 40px;
+  }
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
